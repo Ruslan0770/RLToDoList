@@ -10,46 +10,6 @@ function Click() {
 }
 // task1 end***
 
-
-// var btn = document.getElementById('btn');
-// var avg = [];
-// btn.onclick = function () {
-//     // var h1 = document.createElement('h1');
-//     // h1.innerHTML = input;
-//     var input = document.getElementById("_input").value;
-//     var codeBlock = `
-//                 <li>
-//                     <p>${input}</p>
-//                     <button id="btn1">Delete</button>
-//                     </li>`;
-//                     // var show=document.getElementById('show');
-//                     // for(i=0; i< avg.length; i++){
-//         avg.push(codeBlock)
-//         document.getElementById('show').innerHTML = avg
-        
-//     //     var last = avg[i];
-//     // }
-    
-    
-
-
-
-// //     forEach(x => {
-// //         avg += `
-// //         <li>
-// //                 <p>${x.input}</p>
-// //             <button id="btn1">Delete</button>
-// //         </li>
-            
-// //         `
-// // document.getElementById('show').innerHTML = avg;
-// //     });
-   
-
-// }
-
-
-
 let button=document.getElementById("button");
 button.onclick=function(){
  let input =document.getElementById('input').value;
@@ -67,5 +27,30 @@ button.onclick=function(){
      div.remove();
     }
 }
- 
+
+// var inp = document.getElementById("_input")
+// var btn = document.getElementById("btn")
+// var todos = [];
+// btn.addEventListener("click", function () {
+//     generateToDo();
+//     generateList(todos)
+// })
+// function generateToDo() {
+//     var todovalue = inp.value;
+//     var todo = {
+//         value: todovalue
+//     }
+//     todos.push(todo)
+// }
+// function generateList(todos) {
+//     var ulinnerHTML = '';
+//     for (let i = 0; i < todos.length; i++) {
+//         ulinnerHTML += ` <li>
+//         <p>${todos[i].value}</p>
+//         <button class="btn1">Delete</button>
+//     </li>`
+//     }
+//     let list=document.getElementById("show");
+//     list.innerHTML = ulinnerHTML;
+// }
 
